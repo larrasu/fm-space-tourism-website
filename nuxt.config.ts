@@ -17,7 +17,7 @@ export default defineNuxtConfig({
     families: {
       Bellefair: true,
       Barlow: [400, 700],
-      "Barlow+Condensed": [400],
+      "Barlow+Condensed": [400, 700],
     },
   },
 });

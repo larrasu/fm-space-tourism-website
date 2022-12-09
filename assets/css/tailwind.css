@@ -10,7 +10,7 @@
   h2,
   h3,
   h4 {
-    @apply font-serif;
+    @apply font-serif uppercase;
   }
   h1 {
     @apply text-[150px];
@@ -34,10 +34,10 @@
 
 @layer components {
   .sub-h1 {
-    @apply font-serif text-[28px];
+    @apply font-serif text-[28px] uppercase;
   }
   .sub-h2 {
-    @apply font-condensed text-[14px] tracking-[2.35px];
+    @apply font-condensed text-[14px] tracking-[2.35px] uppercase;
   }
   .explore {
     @apply bg-white text-accent w-[150px] h-[150px] sm:w-[242px] sm:h-[242px] rounded-full flex items-center justify-center text-[20px] sm:text-[32px] font-serif uppercase tracking-[1.25px] cursor-pointer;
