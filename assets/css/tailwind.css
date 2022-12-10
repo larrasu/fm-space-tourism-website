@@ -19,7 +19,7 @@
     @apply text-[80px] leading-[100px] sm:text-[150px] sm:leading-[150px];
   }
   h3 {
-    @apply text-[56px];
+    @apply text-[56px] sm:text-[80px];
   }
   h4 {
     @apply text-[32px];
