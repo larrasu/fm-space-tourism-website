@@ -25,10 +25,10 @@
     @apply text-[32px];
   }
   h5 {
-    @apply font-condensed text-[28px] sm:text-[20px] tracking-[4.72px] uppercase text-primary;
+    @apply font-condensed text-[28px] sm:text-[20px] lg:text-[28px] tracking-[4.72px] uppercase text-primary;
   }
   p {
-    @apply text-[18px] sm:text-[16px] leading-8 sm:leading-7;
+    @apply text-[18px] sm:text-[16px] lg:text-[18px] leading-8 sm:leading-7;
   }
 }
 
@@ -39,8 +39,11 @@
   .sub-h2 {
     @apply font-condensed text-[14px] tracking-[2.35px] uppercase;
   }
+  .nav-text {
+    @apply font-condensed text-[16px] tracking-[2.7px] uppercase;
+  }
   .explore {
-    @apply bg-white text-accent w-[150px] h-[150px] sm:w-[242px] sm:h-[242px] rounded-full flex items-center justify-center text-[20px] sm:text-[32px] font-serif uppercase tracking-[1.25px] cursor-pointer;
+    @apply bg-white text-accent w-[150px] h-[150px] sm:w-[242px] sm:h-[242px] lg:w-[274px] lg:h-[274px] rounded-full flex items-center justify-center text-[20px] sm:text-[32px] font-serif uppercase tracking-[1.25px] lg:tracking-[2px] cursor-pointer;
   }
   .explore-glow {
     @apply bg-white/10 w-0 h-0 rounded-full transition-all absolute top-1/2 left-1/2;
