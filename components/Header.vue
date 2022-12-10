@@ -6,6 +6,7 @@
       </div>
       <div class="sm:hidden p-10">
         <button @click="showMenu = true">
+          <span class="sr-only">Open menu</span>
           <img src="~/assets/shared/icon-hamburger.svg" alt="Menu" />
         </button>
       </div>
@@ -35,6 +36,7 @@
     >
       <div class="grid">
         <button @click="showMenu = false" class="p-10 ml-auto">
+          <span class="sr-only">Close menu</span>
           <img src="~/assets/shared/icon-close.svg" alt="Close" />
         </button>
 
