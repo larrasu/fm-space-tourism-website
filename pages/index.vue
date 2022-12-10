@@ -4,12 +4,12 @@
   >
     <Header />
     <main
-      class="lg:flex-row lg:max-w-7xl lg:mx-auto lg:gap-20 lg:items-end flex flex-col items-center px-5 mt-20"
+      class="lg:flex-row sm:max-w-md sm:mx-auto lg:max-w-7xl lg:gap-20 lg:items-end sm:mt-36 flex flex-col items-center px-5 mt-20"
     >
       <div class="text-center lg:text-left lg:w-[450px]">
         <h5>So, you want to travel to</h5>
-        <h2 class="uppercase">Space</h2>
-        <p class="text-primary lg:text-justify">
+        <h2 class="sm:mt-2 uppercase">Space</h2>
+        <p class="text-primary lg:text-justify sm:mt-5">
           Let’s face it; if you want to go to space, you might as well genuinely
           go to outer space and not hover kind of on the edge of it. Well sit
           back, and relax because we’ll give you a truly out of this world
@@ -18,7 +18,7 @@
       </div>
       <NuxtLink
         to="/destination"
-        class="group cursor-pointer relative w-[250px] h-[250px] sm:w-[342px] sm:h-[342px] lg:w-[450px] lg:h-[450px] mx-auto flex items-center justify-center my-20 lg:mb-0"
+        class="group cursor-pointer relative w-[250px] h-[250px] sm:w-[342px] sm:h-[342px] lg:w-[450px] lg:h-[450px] mx-auto flex items-center justify-center my-10 lg:mb-0 sm:mt-56"
       >
         <div class="explore mx-auto">
           <span>Explore</span>

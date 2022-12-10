@@ -16,7 +16,7 @@
     @apply text-[150px];
   }
   h2 {
-    @apply text-[100px] sm:text-[150px];
+    @apply text-[80px] leading-[100px] sm:text-[150px] sm:leading-[150px];
   }
   h3 {
     @apply text-[56px];
@@ -25,10 +25,10 @@
     @apply text-[32px];
   }
   h5 {
-    @apply font-condensed text-[28px] sm:text-[20px] lg:text-[28px] tracking-[4.72px] uppercase text-primary;
+    @apply font-condensed text-[16px] sm:text-[20px] lg:text-[28px] tracking-[2.7px] sm:tracking-[3.38px] uppercase text-primary;
   }
   p {
-    @apply text-[18px] sm:text-[16px] lg:text-[18px] leading-8 sm:leading-7;
+    @apply text-[16px] lg:text-[18px] leading-[25px] sm:leading-7;
   }
 }
 

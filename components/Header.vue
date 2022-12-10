@@ -15,13 +15,13 @@
         class="sm:block bg-white/5 lg:backdrop-blur-xl lg:pl-10 lg:pr-16 hidden"
       >
         <div
-          class="flex gap-10 text-[14px] tracking-[2.36px] uppercase font-condensed px-10"
+          class="flex gap-10 text-[14px] tracking-[2.36px] uppercase font-condensed px-16"
         >
           <NuxtLink
             :to="link.path"
             v-for="(link, index) of menu"
-            class="py-9 flex items-center gap-2"
-            active-class="border-b border-white"
+            class="py-9 flex items-center gap-2 mb-[3px]"
+            active-class="border-white border-b-[3px] mb-0"
           >
             <p class="lg:block hidden font-bold">0{{ index }}</p>
             {{ link.title }}
@@ -48,7 +48,7 @@
               <NuxtLink
                 :to="link.path"
                 class="flex items-center gap-2"
-                active-class="border-r-2"
+                active-class="border-r-4"
               >
                 <p class="font-bold">0{{ index }}</p>
                 {{ link.title }}
