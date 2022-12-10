@@ -12,7 +12,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  modules: ["@nuxt/content", "@nuxtjs/google-fonts", "@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/google-fonts", "@nuxtjs/tailwindcss"],
   googleFonts: {
     families: {
       Bellefair: true,
